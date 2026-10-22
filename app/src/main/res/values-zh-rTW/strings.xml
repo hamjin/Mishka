@@ -301,7 +301,6 @@
     <string name="settings_wifi_policy_summary">在指定 Wi-Fi 下停止服務或改為直連</string>
     <string name="settings_dynamic_notification">動態通知</string>
     <string name="settings_dynamic_notification_summary">在通知列顯示即時網速與流量</string>
-    <string name="settings_dynamic_notification_summary_root_unsupported">僅限 VPN 模式</string>
     <string name="settings_subscription_via_proxy">透過代理更新</string>
     <string name="settings_subscription_via_proxy_summary">更新訂閱時使用代理</string>
     <string name="settings_restart_after_update">更新後重新啟動代理</string>

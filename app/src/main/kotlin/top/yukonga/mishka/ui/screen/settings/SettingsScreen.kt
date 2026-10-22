@@ -254,15 +254,10 @@ fun SettingsScreen(
                             })
                         }
                         add(CardItem("dynamicNotification") {
-                            val isVpnMode = tunModeIndex == 0
                             SwitchPreference(
                                 title = stringResource(R.string.settings_dynamic_notification),
-                                summary = stringResource(
-                                    if (isVpnMode) R.string.settings_dynamic_notification_summary
-                                    else R.string.settings_dynamic_notification_summary_root_unsupported
-                                ),
-                                checked = isDynamicNotificationEnabled && isVpnMode,
-                                enabled = isVpnMode,
+                                summary = stringResource(R.string.settings_dynamic_notification_summary),
+                                checked = isDynamicNotificationEnabled,
                                 onCheckedChange = { checked ->
                                     storage?.putString(StorageKeys.DYNAMIC_NOTIFICATION, if (checked) "true" else "false")
                                     isDynamicNotificationEnabled = checked

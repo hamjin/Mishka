@@ -301,7 +301,6 @@
     <string name="settings_wifi_policy_summary">在指定 Wi-Fi 下关闭服务或改为直连</string>
     <string name="settings_dynamic_notification">动态通知</string>
     <string name="settings_dynamic_notification_summary">在通知栏显示实时网速和流量</string>
-    <string name="settings_dynamic_notification_summary_root_unsupported">VPN 模式专用</string>
     <string name="settings_subscription_via_proxy">通过代理更新</string>
     <string name="settings_subscription_via_proxy_summary">更新订阅时使用代理</string>
     <string name="settings_restart_after_update">更新后重启代理</string>

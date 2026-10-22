@@ -303,7 +303,6 @@
     <string name="settings_wifi_policy_summary">Stop service or use DIRECT on selected Wi-Fi</string>
     <string name="settings_dynamic_notification">Dynamic Notification</string>
     <string name="settings_dynamic_notification_summary">Show real-time speed and traffic in notification</string>
-    <string name="settings_dynamic_notification_summary_root_unsupported">VPN mode only</string>
     <string name="settings_subscription_via_proxy">Update via proxy</string>
     <string name="settings_subscription_via_proxy_summary">Use proxy when updating subscriptions</string>
     <string name="settings_restart_after_update">Restart after update</string>
