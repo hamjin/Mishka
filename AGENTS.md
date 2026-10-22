@@ -231,7 +231,7 @@ CMake `dependsOn(buildMihomo)`，产两个轻量件链 libmihomo.so（IMPORTED +
 
 ## ROOT 模式约束
 
-全部在 [docs/root-mode.md](docs/root-mode.md)：iptables 锁争用与 `-w`、TPROXY 的 IPv6 门控、`runtime/` 沙箱、`su -c` 转义、孤儿进程清理、attach 三重校验与 boot-session 门控、热点处置的两种模式与规则集、ROOT 下不做动态通知。**改 ROOT / iptables / `su` 相关代码前先读它**——那边每条都是内核或权限层面的坑，违反了不报错，只表现为「连不上」或「规则残留」。
+全部在 [docs/root-mode.md](docs/root-mode.md)：iptables 锁争用与 `-w`、TPROXY 的 IPv6 门控、`runtime/` 沙箱、`su -c` 转义、孤儿进程清理、attach 三重校验与 boot-session 门控、热点处置的两种模式与规则集、ROOT 动态通知的 5s 节流与 Doze 边界。**改 ROOT / iptables / `su` 相关代码前先读它**——那边每条都是内核或权限层面的坑，违反了不报错，只表现为「连不上」或「规则残留」。
 
 ## UI 规范
 

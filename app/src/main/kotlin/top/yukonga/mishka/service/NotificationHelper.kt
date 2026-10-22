@@ -135,11 +135,8 @@ object NotificationHelper {
 
     fun buildDynamicNotification(
         context: Context,
-        profileName: String,
-        uploadTotal: String,
-        downloadTotal: String,
-        uploadSpeed: String,
-        downloadSpeed: String,
+        title: String,
+        content: String,
     ): Notification {
         val intent = Intent(context, MainActivity::class.java).apply {
             flags = Intent.FLAG_ACTIVITY_SINGLE_TOP
@@ -150,8 +147,8 @@ object NotificationHelper {
         )
 
         return Notification.Builder(context, CHANNEL_VPN)
-            .setContentTitle("$profileName • $uploadTotal↑ $downloadTotal↓")
-            .setContentText("$uploadSpeed↑ $downloadSpeed↓")
+            .setContentTitle(title)
+            .setContentText(content)
             .setSmallIcon(R.drawable.ic_launcher_foreground)
             .setContentIntent(pendingIntent)
             .setOngoing(true)

@@ -315,7 +315,6 @@
     <string name="settings_wifi_policy_summary">Остановка службы или режим DIRECT в выбранных сетях Wi-Fi</string>
     <string name="settings_dynamic_notification">Динамическое уведомление</string>
     <string name="settings_dynamic_notification_summary">Отображать текущую скорость и трафик в шторке</string>
-    <string name="settings_dynamic_notification_summary_root_unsupported">Только в режиме VPN</string>
     <string name="settings_subscription_via_proxy">Обновлять через прокси</string>
     <string name="settings_subscription_via_proxy_summary">Использовать прокси при обновлении подписок</string>
     <string name="settings_restart_after_update">Перезапуск после обновления</string>
